@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import '../personal/personal.css';
  const Personal = () => {
   return (
     <div>
@@ -9,7 +9,7 @@ import React from 'react'
             <h5>Personal Details</h5>
           </div>
         </p>
-      </div>
+      
       <div>
         <p>
           <div>
@@ -22,12 +22,13 @@ import React from 'react'
         <p>
           <div>
             <h6>Skills</h6>
-            <li>Hobbies:Reading Books,lisiting Music</li>
+            <li>Hobbies:Reading Books,listening Music</li>
             <li>Skills:Html,Css,Javascript</li>
           </div>
         </p>
       </div>
+      </div>
     </div>
   )
 }
-export default Personal
+export default Personal;

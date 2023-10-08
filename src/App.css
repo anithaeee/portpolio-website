@@ -45,6 +45,14 @@ body {
     margin-bottom: 1rem;
 }
 
+.Tabcss{
+  padding: 1rem;
+  margin: 1rem;
+  background-color: gray;
+  border-radius: 3px;
+
+}
+
 .li{
   padding: 2rem;
 }

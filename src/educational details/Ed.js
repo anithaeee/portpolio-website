@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../educational details/Ed.css';
  const Ed = () => {
   return (
     <div>
