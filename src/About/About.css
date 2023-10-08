@@ -1,0 +1,7 @@
+.maindiv{
+    background:-webkit-gradient();
+    background-color: aquamarine;
+    padding: 5rem;
+    border-radius: 1rem;
+    height: inherit;
+}

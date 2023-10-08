@@ -13,6 +13,16 @@
   }
 }
 
+body {
+    font-family: var(--font-family);
+    font-weight: normal;
+    background: var(--surface-ground);
+    color: var(--text-color);
+    padding: 1rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +36,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.card{
+  background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.li{
+  padding: 2rem;
 }
 
 @keyframes App-logo-spin {
