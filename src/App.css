@@ -21,8 +21,8 @@ body {
     padding: 1rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-image: url("C:\Users\alnla\Documents\react projects\portfolio\public\site assets\background image.jpeg")
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -38,12 +38,12 @@ body {
   color: #61dafb;
 }
 
-.card{
+/* .card{
   background: var(--surface-card);
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 1rem;
-}
+} */
 
 .Tabcss{
   padding: 1rem;
