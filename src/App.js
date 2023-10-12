@@ -9,6 +9,7 @@ function App() {
   let img1 = "public\site assets\background image.jpeg";
   return (
     <>
+    <div className='home__bg-image' style={{backgroundImage: 'url("public\site assets\background.png")'}}>
     <div className='card-background'>
 
     
@@ -21,6 +22,8 @@ function App() {
      <TabPanel header="Personal Details" headerClassName='Tabcss'><Personal/></TabPanel>
      </TabView>
     </div>
+    </div>
+    {/* <img className='homeImg' src="C:\Users\alnla\Documents\react projects\portfolio\public\site assets\background image.jpeg" alt=''/> */}
     </div>
    </>
   );

@@ -21,7 +21,18 @@ body {
     padding: 1rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url("C:\Users\alnla\Documents\react projects\portfolio\public\site assets\background image.jpeg")
+}
+.homeImg{
+object-fit:cover;
+width:79rem;
+}
+
+.home__bg-image{
+margin: 0 auto;
+display:flex;
+width:79rem;
+position: relative;
+justify-content: center;
 }
 .App-header {
   background-color: #282c34;
